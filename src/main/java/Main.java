@@ -1,4 +1,4 @@
-import java.io.File;
+﻿import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -52,12 +52,7 @@ public class Main {
 
     static WebDriver wb = null;
     static WebDriverWait wait;
-    //static String u = "avogadro_memes"; static String p = "wocvmeos#&$_40";
-    //static String u = "allopathic_memes"; static String p = "ekcpacm$$_292";
-    //static String u = "bindis.toss_international"; static String p = "16252728";
-    static String u = "shivani_karrah"; static String p = "rofkjdne4838@$_#";
-    //static String u = "thereviewstation_"; static String p = "26533297$";
-    //static String u = "choco_n_chunks"; static String p = "Himanshi123";
+    static String u = "insta_username"; static String p = "insta_password";
     static int totallikes = 0;
     static int totalfollow = 0;
     static int totalcomments = 0;
@@ -73,15 +68,8 @@ public class Main {
         System.out.println(u);
         ArrayList<String> ig_tags_t = new ArrayList<String>(Arrays.asList("#fitgirl"));
 
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#like","#bhfyp","#nature","#throwback","#love","#photooftheday","#fashion","#travelphotography","#tiktok","#art","#followforfollowback","#insta","#picoftheday","#memes","#indianphotography","#indiapictures","#instagood","#follow","#goodvibes","#Chhattisgarh","#kanpur","#jaipur","#fashion","#pune","#California","#Illinois","#Texas","#Arizona","#Pennsylvania","#Florida","#Ohio","#NorthCarolina","#Indiana","#Colorado","#DistrictofColumbia","#Massachusetts","#Tennessee","#Michigan","#Oklahoma","#Oregon","#Nevada","#Kentucky","#Maryland","#Wisconsin","#NewMexico","#Georgia","#Missouri","#Nebraska","#Virginia","#Minnesota","#Louisiana","#Kansas","#Hawaii"));
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#California","#Illinois","#Texas","#Arizona","#Pennsylvania","#Florida","#Ohio","#Indiana","#Colorado","#Massachusetts","#Tennessee","#Michigan","#Oklahoma","#Oregon","#Nevada","#Kentucky","#Maryland","#Wisconsin","#NewMexico","#Georgia","#Missouri","#Nebraska","#Virginia","#Minnesota","#Louisiana","#Kansas","#Hawaii","#Alaska"));
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#footballmemes","#footballfans","#football","#footballlove","#footballskills","#footballboots","#footballgame","#footballplayer","#messi","#manchesterunited","#mufc","#footballnews","#manutd","#messi","#ronaldo","#fplteams","#soccer","#soccerlife","#sports","#pogba","#soccerskills","#barcelona","#martial","#rashford","#bruno","#bhfyp","#nature","#throwback","#love","#photooftheday","#fashion","#travelphotography","#tiktok","#art"));
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#corporategift","#gifthampers","#giftingideas","#giftset","#homemadechocolate","#assortedchocolates","#giftsforhim","#giftsforher","#mixchocolates","#indiangifts","#giftbox","#chocolategifts","#customisedchocolates","#giftboxideas","#Haryana","#Pune","#Kashmir","#Assam","#Orissa","#Gurugram","#Ghaziabad","#Raigarh","#Udaipur","#Gujrat","#Bangaluru","#Andaman","#Chennai","#DamanandDiu","#Daman","#Diu","#Delhi","#Panipat","#Rewari","#Rohtak","#Sirsa","#Sonipat"));
-
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#memes","#funny","#lmfao","#dailymemes","#memesfortheday","#memepage","#dankmemes","#savage","#savagememes","#funnymeme","#edgymemes","#loveformemes","#memegirl","#memeart","#California","#Illinois","#Texas","#Arizona","#Pennsylvania","#Florida","#Ohio","#NorthCarolina","#Indiana","#Colorado","#DistrictofColumbia","#Massachusetts","#Tennessee","#Michigan"));
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#Goa","#Gujarat","#Delhi","#Anand","#Banaskantha","#Bharuch","#Bhavnagar","#Dahod","#TheDangs","#Gandhinagar","#Ahmedabad","#Jamnagar","#Junagadh","#Kutch","#Kheda","#Mehsana","#Narmada","#Navsari","#Patan","#Panchmahal","#Porbandar","#Rajkot","#Sabarkantha","#Surendranagar","#Surat","#Vyara","#Vadodara","#Valsad","#Haryana","#Ambala","#Bhiwani","#Faridabad","#Fatehabad","#Gurgaon"));
-        //ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#Patna","#Purnia","#Rohtas","#Saharsa","#Samastipur","#Saran","#Sheikhpura","#Sheohar","#Sitamarhi","#Siwan","#Supaul","#Vaishali","#WestChamparan","#Chandigarh","#Chhattisgarh","#Bastar","#Bijapur","#Bilaspur","#Dantewada","#Dhamtari","#Durg","#Jashpur","#JanjgirChampa","#Korba","#Koriya","#Kanker","#Kabirdham","#Mahasamund","#Narayanpur","#Raigarh"));
-        ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#Haryana","#Pune","#Kashmir","#Orissa","#Gurugram","#Ghaziabad","#Bihar","#Hyderabad","#Gujrat","#Bengaluru","#Mumbai","#Chennai","#Delhi","#Panipat","#Jharkhand","#Rohtak","#Sirsa","#Sonipat","#YamunaNagar","#HimachalPradesh","#Bilaspur","#germany","#france"));
+        ArrayList<String> ig_tags = new ArrayList<String>(Arrays.asList("#like","#bhfyp","#nature","#throwback","#love","#photooftheday","#fashion","#travelphotography","#tiktok","#art","#followforfollowback","#insta","#picoftheday","#memes","#indianphotography","#indiapictures","#instagood","#follow","#goodvibes","#Chhattisgarh","#kanpur","#jaipur","#fashion","#pune","#California","#Illinois","#Texas","#Arizona","#Pennsylvania","#Florida","#Ohio","#NorthCarolina","#Indiana","#Colorado","#DistrictofColumbia","#Massachusetts","#Tennessee","#Michigan","#Oklahoma","#Oregon","#Nevada","#Kentucky","#Maryland","#Wisconsin","#NewMexico","#Georgia","#Missouri","#Nebraska","#Virginia","#Minnesota","#Louisiana","#Kansas","#Hawaii"));
+        
 
         // unfollow_from_excel("C:\\Users\\Vishal
         // Puri\\eclipse-workspace\\Instagram_data.xlsx", "four");
